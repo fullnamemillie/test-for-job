@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "./MainContent.module.scss";
+import Cards from "../Cards/Cards";
 
 const MainContent = () => {
   const src = "https://api.lichi.com/category/get_category_product_list";
@@ -57,20 +58,7 @@ const MainContent = () => {
   return (
     <div className={styles.wrapper}>
       {articles.map((article) => (
-        <div className={styles.block} key={article.id}>
-          <img
-            className={styles.dress__photo}
-            src={article.photos[1].big}
-            alt="dress"
-          />
-          <div className={styles.dress__name}>
-            <p>{article.name}</p>
-          </div>
-          <div className={styles.dress__price}>{article.price} руб.</div>
-          <div className={styles.dress__color}>
-            {article.colors.current.name}
-          </div>
-        </div>
+        <Cards article={article} />
       ))}
     </div>
   );
