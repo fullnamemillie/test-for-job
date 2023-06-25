@@ -1,0 +1,539 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 12px;
+
+  .block {
+    cursor: pointer;
+    text-align: center;
+    width: 395px;
+    margin-bottom: 10px;
+
+    .dress__photo {
+      height: 500px;
+      width: 395px;
+    }
+
+    .dress__name {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .dress__photo {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .dress__color {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 340px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 440px;
+        max-width: 340px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1116px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 300px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 440px;
+        max-width: 300px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 270px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 400px;
+        max-width: 270px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 916px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 250px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 350px;
+        max-width: 250px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 220px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 300px;
+        max-width: 220px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 200px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 280px;
+        max-width: 200px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 260px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 400px;
+        max-width: 260px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 230px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 300px;
+        max-width: 230px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 200px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 280px;
+        max-width: 200px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 200px;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 280px;
+        max-width: 200px;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 500px;
+        max-width: 100%;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 480px;
+        max-width: 100%;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 410px;
+        max-width: 100%;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 322px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .block {
+      cursor: pointer;
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 10px;
+
+      .dress__photo {
+        height: 390px;
+        max-width: 100%;
+      }
+
+      .dress__name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__photo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .dress__color {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}

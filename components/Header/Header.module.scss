@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 10px;
+
+  .first__navigation {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+
+  .navigation__item {
+    cursor: pointer;
+  }
+
+  .second__navigation {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+    .navigation__item_botom {
+      cursor: pointer;
+      width: 150px;
+      border-bottom: 1px solid black;
+    }
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 10px;
+
+    .first__navigation {
+      display: flex;
+      gap: 10px;
+      list-style-type: none;
+    }
+
+    .navigation__item {
+      cursor: pointer;
+    }
+
+    .second__navigation {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .navigation__item_botom {
+        cursor: pointer;
+        width: 120px;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+
+    .first__navigation {
+      display: flex;
+      gap: 10px;
+      list-style-type: none;
+    }
+
+    .navigation__item {
+      cursor: pointer;
+    }
+
+    .second__navigation {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .navigation__item_botom {
+        cursor: pointer;
+        width: 90px;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+    .first__navigation {
+      display: block;
+      text-align: center;
+      gap: 5px;
+      list-style-type: none;
+    }
+
+    .navigation__item {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      cursor: pointer;
+    }
+
+    .second__navigation {
+      list-style-type: none;
+      display: block;
+      text-align: center;
+      gap: 10px;
+
+      .navigation__item_botom {
+        cursor: pointer;
+        display: none;
+        width: 50px;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
